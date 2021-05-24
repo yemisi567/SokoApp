@@ -1,0 +1,21 @@
+[debug] [2021-04-23T21:04:00.323Z] ----------------------------------------------------------------------
+[debug] [2021-04-23T21:04:00.326Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-23T21:04:00.326Z] CLI Version:   8.10.0
+[debug] [2021-04-23T21:04:00.327Z] Platform:      win32
+[debug] [2021-04-23T21:04:00.327Z] Node Version:  v14.16.0
+[debug] [2021-04-23T21:04:00.330Z] Time:          Fri Apr 23 2021 14:04:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2021-04-23T21:04:00.330Z] ----------------------------------------------------------------------
+[debug] [2021-04-23T21:04:00.331Z] 
+[debug] [2021-04-23T21:04:00.342Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-23T21:04:00.343Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hp\Desktop\SokoAPP\my-app
+

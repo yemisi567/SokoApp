@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Market() {
+export default function Deal() {
     return (
         <div>
             <p
@@ -9,7 +9,7 @@ export default function Market() {
              display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            padding: 100}}>Market</p>
+            padding: 100}}>Deals</p>
         </div>
     )
 }

@@ -9,7 +9,7 @@ export default function Earn() {
              display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            padding: 100}}>Earn</p>
+            padding: 100}}>More</p>
         </div>
     )
 }

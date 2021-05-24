@@ -1,53 +1,132 @@
-.btn {
-  margin-left: 100px;
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
 }
 
-#rcorners2 {
-  border-radius: 25px;
-  border: 2px solid black;
-  padding: 20px 30px 0px 50px;
-  margin-top: 40px;
-  width: 100%;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  font-family: "Noto Sans JP";
 }
-.solid {
-  background-color: lightgray;
-  color: blue;
+* {
+  box-sizing: border-box;
 }
-.light {
-  background-color: lightgray;
-  color: black;
-}
-.btn-group {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
-.activity {
-  background-color: lightgray;
-  color: white;
-}
+/*First Section*/
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #ddd;
-  background-color: darkgray;
 }
-
 th,
 td {
-  text-align: left;
-  padding: 16px;
+  border: 1px solid #c6c7cc;
+  padding: 10px 15px;
+}
+th {
+  font-weight: bold;
+}
+thead tr th {
+  height: 30px;
+  line-height: 30px;
+
+  /*text-align: left;*/
+}
+tbody td:last-child,
+thead th:last-child {
+  border-right: none !important;
+}
+
+/*First row end*/
+
+.searchContainer {
+  display: inline-flex;
+  flex: 1;
+  position: relative;
+  border: 1px solid skyblue;
+  background-color: #edf2f7;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.searchIcon {
+  padding: 10px;
+  size: 2ex;
+}
+
+.searchBox {
+  flex: 1;
+  border: none;
+  margin-top: 10;
+}
+
+/*Create a responsive Carousel*/
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+body h1 {
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.column {
+  float: left;
+  width: 50%;
+  height: 139px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create a responsive, centered, three-column grid. */
+.card-container {
+  margin-top: 50px;
+  align-items: start;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+}
+
+.card-container2 {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.card {
+  color: white;
+  padding: 50 0 0 0;
+  text-align: center;
+  border: none;
 }
 .nav {
-  position: fixed;
+  position: relative;
+  margin: 0 auto;
   bottom: 0;
   width: 100%;
-  height: 55px;
+  height: 70px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
   display: flex;
@@ -70,15 +149,51 @@ td {
   -webkit-tap-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;
 }
-
-.nav__link:hover {
-  background-color: #eeeeee;
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 90%;
 }
 
-.nav__link--active {
-  color: #009578;
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
 }
 
-.nav__icon {
-  font-size: 18px;
+.slide {
+  margin-top: 20px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.button2 {
+  background-color: #227eff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 60px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
 }

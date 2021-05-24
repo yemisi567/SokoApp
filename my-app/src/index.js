@@ -4,20 +4,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from '../src/components/Home';
-import Activity from '../src/components/Activity'
+import Buy from './components/Buy'
 import Wallet from '../src/components/Wallet'
-import Market from '../src/components/Market'
-import Earn from '../src/components/Earn'
+import Deal from './components/Deal'
+import More from './components/More'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <Switch>
     <Route exact path="/" component={Home} />
-        <Route path="/Activity" component={Activity} />
+        <Route path="/Buy" component={Buy} />
+        <Route path="/Deal" component={Deal} />
         <Route path="/Wallet" component={Wallet} />
-        <Route path="/Market" component={Market} />
-        <Route path="/Earn" component={Earn} />
+        <Route path="/More" component={More} />
         <App/>
     </Switch>
     </BrowserRouter>

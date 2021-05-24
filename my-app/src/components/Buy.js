@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Activity() {
+export default function Buy() {
     return (
         <div>
             <p
@@ -9,7 +9,7 @@ export default function Activity() {
             display: 'flex',
            justifyContent: 'center',
            alignItems: 'center',
-           padding: 100}}>Activity</p>
+           padding: 100}}>Buy</p>
         </div>
     )
 }
